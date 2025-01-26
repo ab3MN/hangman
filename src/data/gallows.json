@@ -1,0 +1,26 @@
+[
+  {
+    "name": "head",
+    "src": "./img/gallows/head.png"
+  },
+  {
+    "name": "body",
+    "src": "./img/gallows/body.png"
+  },
+  {
+    "name": "left--hand",
+    "src": "./img/gallows/left__hand.png"
+  },
+  {
+    "name": "right--hand",
+    "src": "./img/gallows/right__hand.png"
+  },
+  {
+    "name": "left--leg",
+    "src": "./img/gallows/left__leg.png"
+  },
+  {
+    "name": "right--leg",
+    "src": "./img/gallows/right__leg.png"
+  }
+]

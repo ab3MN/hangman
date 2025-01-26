@@ -1,0 +1,317 @@
+[
+  {
+    "question": "Which mammal is known to have the most powerful bite in the world?",
+    "answer": "hippopotamus",
+    "id": 1
+  },
+  {
+    "question": "What object does a male penguin often gift to a female penguin to win her over?",
+    "answer": "a pebble",
+    "id": 2
+  },
+  {
+    "question": "A dog sweats through which part of its body?",
+    "answer": "its paws",
+    "id": 3
+  },
+  {
+    "question": "What is the size of a newborn kangaroo?",
+    "answer": "one inch",
+    "id": 4
+  },
+  {
+    "question": "Which animal is known to spend 90% of its day sleeping?",
+    "answer": "koalas",
+    "id": 5
+  },
+  {
+    "question": "What color is the tongue of a giraffe?",
+    "answer": "purple",
+    "id": 6
+  },
+  {
+    "question": "Which animal’s stripes are on their skin as well as their fur?",
+    "answer": "tiger",
+    "id": 7
+  },
+  {
+    "question": "Which animal’s poop is known to take the shape of cubes?",
+    "answer": "wombat",
+    "id": 8
+  },
+  {
+    "question": "Under their white fur, what color is a polar bear’s skin?",
+    "answer": "black",
+    "id": 9
+  },
+  {
+    "question": "How many compartments are in a cow’s stomach?",
+    "answer": "four",
+    "id": 10
+  },
+  {
+    "question": "How long does it take a sloth to digest a meal?",
+    "answer": "two weeks",
+    "id": 11
+  },
+  {
+    "question": "What is the name of the fastest land animal?",
+    "answer": "cheetah",
+    "id": 12
+  },
+  {
+    "question": "A baby goat is called what?",
+    "answer": "kid",
+    "id": 13
+  },
+  {
+    "question": "What’s the only mammal that’s able to fly?",
+    "answer": "bat",
+    "id": 14
+  },
+  {
+    "question": "What’s a group of kittens called?",
+    "answer": "four",
+    "id": 15
+  },
+  {
+    "question": "How many compartments are in a cow’s stomach?",
+    "answer": "kindle",
+    "id": 16
+  },
+  {
+    "question": "What are the horns of a rhinoceros made of?",
+    "answer": "hair",
+    "id": 17
+  },
+  {
+    "question": "How many compartments are in a cow’s stomach?",
+    "answer": "four",
+    "id": 18
+  },
+  {
+    "question": "How many humps does a Bactrian camel have?",
+    "answer": "two",
+    "id": 19
+  },
+  {
+    "question": "What name is given to a female deer?",
+    "answer": "doe",
+    "id": 20
+  },
+  {
+    "question": "What animal is said to have nine lives?",
+    "answer": "cat",
+    "id": 21
+  },
+  {
+    "question": "What animal is known by the nickname 'sea cow'?",
+    "answer": "manatee",
+    "id": 22
+  },
+  {
+    "question": "What is the only mammal that can’t jump?",
+    "answer": "elephant",
+    "id": 23
+  },
+  {
+    "question": "What animal is the largest mammal in the world?",
+    "answer": "blue whale",
+    "id": 24
+  },
+  {
+    "question": "What animal eats mainly bamboo?",
+    "answer": "elephant",
+    "id": 25
+  },
+  {
+    "question": "What is the only mammal that can’t jump?",
+    "answer": "panda",
+    "id": 26
+  },
+  {
+    "question": "What animal is known to be 'man’s best friend'?",
+    "answer": "dog",
+    "id": 27
+  },
+  {
+    "question": "Which animal can stand on its tail?",
+    "answer": "kangaroo",
+    "id": 28
+  },
+  {
+    "question": "Which animal is the tallest in the world??",
+    "answer": "giraffe",
+    "id": 29
+  },
+  {
+    "question": "What animal is covered in quills?",
+    "answer": "porcupine",
+    "id": 30
+  },
+  {
+    "question": "What kind of turtle can’t retract into its shell?",
+    "answer": "sea turtle",
+    "id": 31
+  },
+  {
+    "question": "What kind of animal is a Komodo dragon?",
+    "answer": "a lizard",
+    "id": 32
+  },
+  {
+    "question": "What does a snake shed a few times a year?",
+    "answer": "its skin",
+    "id": 33
+  },
+  {
+    "question": "Which animal can move its eyes independently?",
+    "answer": "a chameleon",
+    "id": 34
+  },
+  {
+    "question": "What animal breathes out of its butt?",
+    "answer": "turtles",
+    "id": 35
+  },
+  {
+    "question": "How many layers of skin does a chameleon have?",
+    "answer": "four",
+    "id": 36
+  },
+  {
+    "question": "What do snakes use to smell?",
+    "answer": "their tongue",
+    "id": 37
+  },
+  {
+    "question": "The King Cobra is also called what?",
+    "answer": "the hamadryad",
+    "id": 38
+  },
+  {
+    "question": "What feature is visibly different between alligators and crocodiles?",
+    "answer": "their snout",
+    "id": 39
+  },
+  {
+    "question": "What’s the name of the largest snake in the world?",
+    "answer": "anaconda",
+    "id": 40
+  },
+  {
+    "question": "What type of reptiles are leatherbacks and ridleys?",
+    "answer": "turtles",
+    "id": 41
+  },
+  {
+    "question": "What reptile is known for the ability to change its body color?",
+    "answer": "chameleon",
+    "id": 42
+  },
+  {
+    "question": "What reptile is known for the ability to change its body color?",
+    "answer": "lizard",
+    "id": 43
+  },
+  {
+    "question": "The larvae stage of a frog is called what?",
+    "answer": "tadpole",
+    "id": 44
+  },
+  {
+    "question": "Do frogs lay eggs?",
+    "answer": "yes",
+    "id": 45
+  },
+  {
+    "question": "Which amphibian has a tail?",
+    "answer": "salamanders",
+    "id": 46
+  },
+  {
+    "question": "How many groups of amphibians are there?",
+    "answer": "three",
+    "id": 47
+  },
+  {
+    "question": "A wart-covered amphibian with leathery skin is a what?",
+    "answer": "toad",
+    "id": 48
+  },
+  {
+    "question": "Are frogs more active during the day or at night?",
+    "answer": "at night",
+    "id": 49
+  },
+  {
+    "question": "What do you call a frog’s ears?",
+    "answer": "tympanums",
+    "id": 50
+  },
+  {
+    "question": "Which butterfly migrates?",
+    "answer": "monarchs",
+    "id": 51
+  },
+  {
+    "question": "What color is an Elephant Hawk-Moth?",
+    "answer": "pink",
+    "id": 52
+  },
+  {
+    "question": "What’s the largest group of insects?",
+    "answer": "beetles",
+    "id": 53
+  },
+  {
+    "question": "How many legs do cockroaches have?",
+    "answer": "six",
+    "id": 54
+  },
+  {
+    "question": "What’s a newly hatched butterfly called?",
+    "answer": "caterpillar",
+    "id": 55
+  },
+  {
+    "question": "What is the loudest insect in the world?",
+    "answer": "cicada",
+    "id": 56
+  },
+  {
+    "question": "What insect was the first living creature to be sent into space?",
+    "answer": "fruit fly",
+    "id": 57
+  },
+  {
+    "question": "What is the smallest known insect?",
+    "answer": "fairyfly",
+    "id": 58
+  },
+  {
+    "question": "Which ant has the most painful sting?",
+    "answer": "bullet ant",
+    "id": 59
+  },
+  {
+    "question": "How many stages of metamorphosis do most insects go through?",
+    "answer": "four",
+    "id": 60
+  },
+  {
+    "question": "What part of its body does a butterfly taste with?",
+    "answer": "its feet",
+    "id": 61
+  },
+  {
+    "question": "How many flowers do honey bees have to visit in order to make one pound of honey?",
+    "answer": "two million",
+    "id": 62
+  },
+  {
+    "question": "How many eyes do caterpillars have?",
+    "answer": "twelve",
+    "id": 63
+  }
+]

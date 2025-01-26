@@ -1,0 +1,72 @@
+.gallows {
+  display: flex;
+  position: relative;
+  margin-bottom: 2rem;
+
+  &__left {
+    img {
+      width: 200px;
+    }
+  }
+
+  &__item {
+    position: absolute;
+    display: none;
+  }
+
+  &__item.active {
+    animation: ani 2.5s forwards;
+    display: block;
+  }
+
+  &__img {
+    width: 40px;
+  }
+
+  &__item.head {
+    top: 90px;
+    left: 147px;
+    .gallows__img {
+      width: 50px;
+    }
+  }
+
+  &__item.body {
+    top: 140px;
+    left: 170px;
+    .gallows__img {
+      width: 3px;
+      height: 80px;
+    }
+  }
+
+  &__item.left--hand,
+  &__item.right--hand {
+    top: 160px;
+  }
+
+  &__item.left--hand,
+  &__item.left--leg {
+    left: 130px;
+  }
+
+  &__item.left--leg,
+  &__item.right--leg {
+    top: 220px;
+  }
+
+  &__item.right--hand,
+  &__item.right--leg {
+    left: 173px;
+  }
+}
+@keyframes ani {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

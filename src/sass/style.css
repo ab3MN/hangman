@@ -1,0 +1,389 @@
+.hangman__answers--item, .keyboard__key, body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+ul,
+li {
+  -webkit-padding-start: 0;
+  padding-inline-start: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  background: none;
+  border: none;
+}
+
+button,
+img,
+a {
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+[aria-current=page] {
+  pointer-events: none;
+  cursor: default;
+  text-decoration: none;
+}
+
+object {
+  pointer-events: none;
+}
+
+html {
+  font-size: 10px;
+  font-style: normal;
+}
+html ::-webkit-scrollbar {
+  width: 0;
+}
+
+body {
+  max-width: 1440px;
+  padding: 0 2rem;
+  margin: auto;
+  min-height: 100vh;
+}
+
+.wrapper {
+  max-width: 1360px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.keyboard {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+@media (max-width: 500px) {
+  .keyboard {
+    gap: 0.7rem;
+  }
+}
+.keyboard__item {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+@media (max-width: 500px) {
+  .keyboard__item {
+    gap: 0.7rem;
+  }
+}
+.keyboard__key {
+  width: 4rem;
+  height: 4rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+  border-radius: 0.5rem;
+  background-color: coral;
+  color: white;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+@media (max-width: 500px) {
+  .keyboard__key {
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.6rem;
+  }
+}
+.keyboard__key:focus, .keyboard__key:hover {
+  background-color: aquamarine;
+  color: coral;
+}
+.keyboard__key:disabled {
+  cursor: default;
+  background-color: grey;
+}
+.keyboard__key:disabled:focus, .keyboard__key:disabled:hover {
+  background-color: grey;
+  color: white;
+}
+
+.hangman {
+  margin-bottom: 2rem;
+}
+.hangman .wrapper {
+  display: flex;
+  column-gap: 5rem;
+  margin-bottom: 2rem;
+}
+@media (max-width: 1000px) {
+  .hangman .wrapper {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2rem;
+    margin-top: 2rem;
+  }
+}
+.hangman__title {
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.hangman__answers {
+  display: flex;
+  column-gap: 2rem;
+  margin-bottom: 5rem;
+  justify-content: center;
+}
+@media (max-width: 500px) {
+  .hangman__answers {
+    column-gap: 1rem;
+  }
+}
+@media (max-width: 400px) {
+  .hangman__answers {
+    column-gap: 0.8rem;
+  }
+}
+.hangman__answers--item {
+  width: 4rem;
+  font-size: 4rem;
+  position: relative;
+  text-transform: uppercase;
+}
+@media (max-width: 1000px) {
+  .hangman__answers--item {
+    width: 3rem;
+    font-size: 3rem;
+  }
+}
+@media (max-width: 640px) {
+  .hangman__answers--item {
+    font-size: 2rem;
+    width: 2rem;
+  }
+}
+.hangman__answers--item .letter {
+  opacity: 0;
+}
+.hangman__answers--item::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 0.3rem;
+  background-color: black;
+  position: absolute;
+  bottom: 0px;
+}
+.hangman__answers--item.active .letter {
+  opacity: 1;
+}
+.hangman__answers--item.active::after {
+  display: none;
+}
+.hangman__issue, .hangman__guesses {
+  text-align: center;
+}
+.hangman__issue {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  line-height: 150%;
+}
+@media (max-width: 1000px) {
+  .hangman__issue {
+    font-size: 2.5rem;
+  }
+}
+.hangman__guesses {
+  font-size: 2rem;
+  margin-bottom: 4rem;
+  font-weight: bold;
+}
+.hangman__guesses .hangman__count {
+  color: red;
+}
+.hangman__result {
+  max-width: 50rem;
+  padding: 5rem 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+.hangman__result--title {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+.hangman__result--answer {
+  margin-bottom: 3rem;
+}
+.hangman__result--answer span {
+  font-weight: bold;
+  color: aquamarine;
+  font-size: 2.5rem;
+}
+.hangman__result--answer, .hangman__result--button {
+  font-size: 2rem;
+}
+.hangman__result--button {
+  padding: 1rem 2rem;
+  color: coral;
+  border: 1px solid white;
+  border-radius: 3rem;
+  background-color: aquamarine;
+  display: block;
+  margin: 0 auto;
+  text-transform: capitalize;
+}
+.hangman__result--button:hover {
+  background-color: coral;
+  color: aquamarine;
+}
+
+.gallows {
+  display: flex;
+  position: relative;
+  margin-bottom: 2rem;
+}
+.gallows__left img {
+  width: 200px;
+}
+.gallows__item {
+  position: absolute;
+  display: none;
+}
+.gallows__item.active {
+  animation: ani 2.5s forwards;
+  display: block;
+}
+.gallows__img {
+  width: 40px;
+}
+.gallows__item.head {
+  top: 90px;
+  left: 147px;
+}
+.gallows__item.head .gallows__img {
+  width: 50px;
+}
+.gallows__item.body {
+  top: 140px;
+  left: 170px;
+}
+.gallows__item.body .gallows__img {
+  width: 3px;
+  height: 80px;
+}
+.gallows__item.left--hand, .gallows__item.right--hand {
+  top: 160px;
+}
+.gallows__item.left--hand, .gallows__item.left--leg {
+  left: 130px;
+}
+.gallows__item.left--leg, .gallows__item.right--leg {
+  top: 220px;
+}
+.gallows__item.right--hand, .gallows__item.right--leg {
+  left: 173px;
+}
+
+@keyframes ani {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(64, 63, 61, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+  animation: fadein 1s;
+}
+
+.modal {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: coral;
+  border-radius: 4rem;
+  box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2), 0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12);
+}
+
+.modal__close-icon {
+  position: absolute;
+  width: 52px;
+  height: 52px;
+  border: 2px solid #f1cdb3;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: -55px;
+  right: -45px;
+  cursor: pointer;
+}
+
+.modal__close-icon :hover {
+  cursor: pointer;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
